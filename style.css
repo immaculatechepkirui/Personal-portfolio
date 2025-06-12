@@ -1,256 +1,344 @@
 body{
-    background-color: rgb(245, 202, 208);
-    
-}
-
-.fruitsbody{
+    background-image: url("images/SHIMMERPURPLE.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 3%;
-    background-color: azure;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 25px;
-    border-radius: 5px;
+
 }
 
-.topnav{
+.topnavigation{
     display: flex;
-    gap: 130px;
-}
-
-.threelines{
-    display: flex;
-    gap: 3px;
-    color: rgb(172, 112, 120);
-}
-
-.tittle h1{
-    color: rgb(139, 53, 139);
-    font-size: 24px;
+    gap: 70px;
+    background-color: rgba(28, 7, 49, 0.56);
+    border-radius: 30px;
+    width: 50vw;
+    margin-left: 160px;
     
 }
 
-.contact a{
-    text-decoration: none;
-    color:rgb(172, 112, 120) ;
+.topnavigation img{
+    width: 3vw;
+    
+}
+
+.navigationcontents{
+    color: white;
+    padding: 6px;
+    
+}
+
+.navigationcontents a{
+    font-weight: 600;
     padding: 4px;
-    
-    
 }
 
-.contact a:hover{
-    color:rgb(139, 53, 139) ;
-    
+.navigationcontents a:hover{
+    background-color: rgba(240, 248, 255, 0.472);
+    border-radius: 15px;
+    color: rgba(112, 56, 164, 0.56);
 }
 
-.topnav img{
-    width: 2vw;
-    height: 3vh;
-    
+.the-introduction{
+    background-color: color-mix(in oklab, #3c184088 80%, rgb(7, 7, 7));
+    justify-content: center;
+    font-size: 11px;
+
 }
 
-.topitems{
+.personal-intro{
     display: flex;
-    padding-top: 40px;
-    color: rgb(139, 53, 139);
-    gap: 100px;
+    gap: 40px;
+    margin-top: 20px;
+    justify-content: center;
+
+    
 }
 
-.topitems h2{
-    border: solid;
-    width: 2vw;
-    border-radius: 12px;
-    margin-left: 105px;
-    margin-top: -28px;
-
-}
-
-.topitems img{
+.personal-intro img{
     width: 30vw;
-    margin-top: -49px;
 }
 
-.secondparagraph{
-    display: flex;
-    color: rgba(139, 53, 139);
-    gap: 130px;
-    padding-top: 70px;
-}
-
-
-.thirdparagraph{
-    display: flex;
-    color: rgba(139, 53, 139);
-    padding-top: 70px;
-    gap: 80px;
-}
-
-.partone{
-    background-color: white;
-    border-radius: 12px;
-    height: 80vh;
-
-
-}
-
-.partone img{
-    width: 5vw;
-    border-radius: 40px;
-    padding: 10px;
-}
-
-.parttwo img{
-    width: 20vw;
-}
-
-.organic{
-    color:  rgb(245, 202, 208);
-    background-color: purple;
-    border-radius: 12px;
-    height: 50vh;
-    position: absolute;
-    margin-top: -2cm;
-}
-
-.organic img{
-    width: 5vw;
-    border-radius: 40px;
-    padding: 10px;
-}
-
-.partthree{
-    background-color: white;
-    border-radius: 12px;
-    height: 80vh;
-}
-
-.partthree img{
-    width: 5vw;
-    border-radius: 40px;
-    padding: 10px;
+.intro{
+    color: rgba(255, 255, 255, 0.819);
+    margin-top: 50px;
     
+
+}
+.buttons{
+    margin-left: 3.2cm;
+    margin-top: -30px;
+
 }
 
-.partone button{
-    text-decoration: none;
-    background-color: rgb(245, 202, 208);
+button:hover{
+    background-color:  rgba(190, 138, 232, 0.64);
+    color: rgba(53, 30, 73, 0.64);
     border: none;
-    padding: 6px;
-    border-radius: 9px;
-}
-
-.partone button:hover{
-    background-color:rgba(139, 53, 139) ;
-    color: white;
 
 }
 
-.parttwo button{
-    text-decoration: none;
-    background-color: rgb(245, 202, 208);
+#b-one{
+    border-radius: 15px;
+    padding: 5px;
+    width: 10vw;
     border: none;
-    padding: 6px;
-    border-radius: 9px;
-}
-
-.parttwo button:hover{
-    background-color:rgba(139, 53, 139) ;
-    color: white;
+    color: rgba(51, 9, 90, 0.698);
+    font-weight: 800;
+    font-size: 10px;
     
 }
 
-.partthree button{
-    text-decoration: none;
-    background-color: rgb(245, 202, 208);
-    border: none;
-    padding: 6px;
-    border-radius: 9px;
+#b-two{
+    background-color: inherit;
+    border-radius: 15px;
+    padding: 5px;
+    width: 10vw;
+    color: rgba(211, 205, 216, 0.911);
+    font-weight: 800;
+    border-radius: solid 1px;
+    border-color: rgba(211, 205, 216, 0.911);
+    font-size: 9px;
 }
 
-.partthree button:hover{
-    background-color:rgba(139, 53, 139) ;
-    color: white;
-    
-}
-
-.h1{
-    color: rgba(139, 53, 139);
-    margin-left: 290px;
+.socials{
     display: flex;
-    gap: 210px;
+    gap: 19px;
+    padding-top: 15px;
+    margin-left: 3.2cm;
 }
 
-.h1 a{
-    text-decoration: none;
-
+.socials img{
+    background-color: aliceblue;
+    width: 3vw;
 }
 
-.h1 a:hover{
-    color: rgb(245, 202, 208);
-    
+.socials img:hover{
+    transform: scale(1.2);
 }
 
-.fruitone{
-    display: flex;
-    gap: 190px;
-    color: rgb(139, 53, 139);
-    padding-top: 90px;
-}
-
-.fruitone img{
+#downward-icon{
+    margin-left: 9cm;
+    padding-top: 10px;
     border-radius: 10px;
-    margin-top: 2px;
+    width: 5vw;
 }
 
-.fruittwo{
+#downward-icon:hover{
+    transform: scale(1.2);
+}
+
+.about-me{
+    background-color: color-mix(in oklab, #3c184088 40%, rgb(7, 7, 7));
+    justify-content: center; 
     display: flex;
-    padding-top: 90px;
-    gap: 90px;
-    color: rgb(139, 53, 139);
+    padding: 50px;
+    gap: 50px;
 }
 
-.fruittwo img{
-    width: 40vw;
-    padding-top: 1px;
+.about-me img{
+     width:30vw;
+}
+
+.describe-me{
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.skills-icons{
+    display: flex;
+    gap: 5px;
+}
+
+.skills-icons img{
+    width: 3vw;
+    background-color: white;
+    height: 6vh;
+    
     
 }
 
-.fruitthree{
+.about-me h2{
+    color:white;
+    position: absolute;
+    margin-top: -33px;
+    margin-left: 4.3cm;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.my-experiences{
+    background-color: color-mix(in oklab, #3c184088 70%, rgb(7, 7, 7));
+    color: aliceblue;
+    justify-items: center;
+    padding: 20px;
+    font-size: 13px;
+
+}
+
+.experience-list{
     display: flex;
-    color:rgb(139, 53, 139);
-    gap: 90px;
-    padding-top: 90px;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+    
 }
 
-.fruitthree img{
-    width: 40vw;
+.experience1{
+    background-color: color-mix(in oklab, #3c184088 40%, rgb(7, 7, 7));
+    justify-content: center;
+    font-size: 7px;
+    padding: 7px;
+    border-radius: 10px;
+    
 }
 
-
-.features{
-    color: rgb(139, 53, 139);
-    padding-top: 90px;
-    margin-left: 7cm;
+.experience1 img{
+    width: 15vw;
+    padding: 5px;
+    justify-items: center;
 }
 
-.exampleoffeatures{
+#threedots{
     display: flex;
-    padding-top: 20px;
-    gap: 10px;
-    margin-left: 4cm;
-
-}
-.exampleoffeatures img{
-    width: 20vw;
-    height: 80vh;
-
 }
 
-.featurelists{
-    color: rgb(139, 53, 139);
+#threedots img{
+    width: 1vw;
+    height: 2vh;
+    border-radius: 6px;
+    margin-top: 1cm;
 }
 
-.bottoms{
+#threedots img:hover{
+    color: darkorchid;
+    background-color: rgb(140, 216, 8);
+}
+
+.experience1:hover{
+    background-color: rgba(181, 124, 228, 0.357);
+}
+
+.all-projects{
+    justify-items: center;
+    background-color: rgba(34, 4, 63, 0.56);
+    color: aliceblue;
+    padding: 20px;
+
+
+}
+
+.all-projects h2{
+    font-size: 25px;
+}
+
+.my-projects{
     display: flex;
-    padding-top: 90px;
-    gap: 210px;
-    color: rgb(139, 53, 139);
+    justify-content: center;
+    
+}
+
+.project-one{
+    background-color:rgba(180, 109, 237, 0.64) ;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: rgba(240, 248, 255, 0.733);
+    
+}
+
+.project-one img{
+    width: 10vw;
+    background-color: blueviolet;
+    
+}
+
+.project-one a{
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 15px;
+    color: antiquewhite;
+    background-color: rgb(153, 107, 195);
+}
+
+.project-one a:hover{
+    background-color:  rgba(119, 92, 142, 0.64);
+    color: rgba(100, 14, 175, 0.64);
+}
+
+.contact-me{
+    background-color: rgba(2, 0, 4, 0.756);
+    color: antiquewhite;
+    justify-items: center;
+    margin-top: 0px;
+    padding: 20px;
+    
+}
+
+.contact-me h2{
+    font-size: 19px;
+}
+
+.contact-details{
+    color: azure;
+    display: flex;
+    gap: 60px;
+}
+
+.contact-form{
+    padding: 30px;
+}
+
+.contact-form input{
+    background-color: rgba(192, 137, 236, 0.298);
+    border: none;
+    padding: 6px;
+    width: 23vw;
+}
+
+#message{
+    height: 10vh;
+}
+
+#last-button{
+    background-color: rgba(146, 19, 251, 0.298);
+    border: none;
+    padding: 6px;
+    width: 24.5vw;
+    color: beige;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+#last-button:hover{
+    background-color:  rgba(190, 138, 232, 0.64);
+    color: rgba(53, 30, 73, 0.64);
+    
+}
+
+.caption h4{
+    font-size: 20px;
+}
+
+
+.socials2{
+    background-color: color-mix(in oklab, #3c184088 70%, rgb(7, 7, 7));
+    display: flex;
+    gap: 19px;
+    justify-content: center;
+    padding: 6px;
+    
+
+}
+
+.socials2 img{
+    background-color: aliceblue;
+    width: 3vw;
+   
+}
+
+.socials2 img:hover{
+    transform: scale(1.2);
 }
